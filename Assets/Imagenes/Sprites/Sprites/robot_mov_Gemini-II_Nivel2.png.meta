@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: d8840de3485768e409db8108ac4d9261
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3566726061799180928
+    second: robot_mov_Gemini-II_Nivel2_0
+  - first:
+      213: 815056418843657897
+    second: robot_mov_Gemini-II_Nivel2_1
+  - first:
+      213: 2769023959356923112
+    second: robot_mov_Gemini-II_Nivel2_2
+  - first:
+      213: -9219387690995471579
+    second: robot_mov_Gemini-II_Nivel2_3
+  - first:
+      213: 8101624458990675333
+    second: robot_mov_Gemini-II_Nivel2_4
+  - first:
+      213: -4962718910146344596
+    second: robot_mov_Gemini-II_Nivel2_5
+  - first:
+      213: -5918378096557409129
+    second: robot_mov_Gemini-II_Nivel2_6
+  - first:
+      213: 3575821632960445698
+    second: robot_mov_Gemini-II_Nivel2_7
+  - first:
+      213: 2076507773974781543
+    second: robot_mov_Gemini-II_Nivel2_8
+  - first:
+      213: 5315513090788813395
+    second: robot_mov_Gemini-II_Nivel2_9
+  - first:
+      213: -3477804627844603826
+    second: robot_mov_Gemini-II_Nivel2_10
+  - first:
+      213: -2252150010314585742
+    second: robot_mov_Gemini-II_Nivel2_11
+  - first:
+      213: 7186213424705001331
+    second: robot_mov_Gemini-II_Nivel2_12
+  - first:
+      213: 7864263096841898511
+    second: robot_mov_Gemini-II_Nivel2_13
+  - first:
+      213: 1317185782133223777
+    second: robot_mov_Gemini-II_Nivel2_14
+  - first:
+      213: -3682985082018224877
+    second: robot_mov_Gemini-II_Nivel2_15
+  - first:
+      213: 5664189051858773597
+    second: robot_mov_Gemini-II_Nivel2_16
+  - first:
+      213: -7767508210437045843
+    second: robot_mov_Gemini-II_Nivel2_17
+  - first:
+      213: 7410057064506611156
+    second: robot_mov_Gemini-II_Nivel2_18
+  - first:
+      213: 1706301769302187105
+    second: robot_mov_Gemini-II_Nivel2_19
+  - first:
+      213: -2235227990333538132
+    second: robot_mov_Gemini-II_Nivel2_20
+  - first:
+      213: -6080454672568179242
+    second: robot_mov_Gemini-II_Nivel2_21
+  - first:
+      213: 8344017553003900458
+    second: robot_mov_Gemini-II_Nivel2_22
+  - first:
+      213: 6643829281264528774
+    second: robot_mov_Gemini-II_Nivel2_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 401
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085f45b4b81708ec0800000000000000
+      internalID: -3566726061799180928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 402
+        width: 49
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6041d9e79af4b00800000000000000
+      internalID: 815056418843657897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 402
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecd300ce9c8d6620800000000000000
+      internalID: 2769023959356923112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 401
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b2b9fcdb72e0080800000000000000
+      internalID: -9219387690995471579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 292
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58561cd6580ce6070800000000000000
+      internalID: 8101624458990675333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 292
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c690d90e171e02bb0800000000000000
+      internalID: -4962718910146344596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_6
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 292
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c3e346a72bddda0800000000000000
+      internalID: -5918378096557409129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 292
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20db3c464dedf9130800000000000000
+      internalID: 3575821632960445698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 292
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e9a1191dc31dc10800000000000000
+      internalID: 2076507773974781543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_9
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 292
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ae7674efe74c940800000000000000
+      internalID: 5315513090788813395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 274
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40ec1ffd1b5cbfc0800000000000000
+      internalID: -3477804627844603826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 173
+        width: 68
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2798e4e7f71ceb0e0800000000000000
+      internalID: -2252150010314585742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 173
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3775fab190f8ab360800000000000000
+      internalID: 7186213424705001331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 173
+        width: 95
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a8973be99732d60800000000000000
+      internalID: 7864263096841898511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 174
+        width: 68
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161fe377d75974210800000000000000
+      internalID: 1317185782133223777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 174
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315ad39c49863ecc0800000000000000
+      internalID: -3682985082018224877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 19
+        width: 65
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56e2b8beed3b9e40800000000000000
+      internalID: 5664189051858773597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 19
+        width: 83
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da148f6cf64443490800000000000000
+      internalID: -7767508210437045843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_18
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 62
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d55a47d3afc5d660800000000000000
+      internalID: 7410057064506611156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 19
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c90e63b600ea710800000000000000
+      internalID: 1706301769302187105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 18
+        width: 78
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0c82c4cffdaf0e0800000000000000
+      internalID: -2235227990333538132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_21
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 69
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5a5b0e0b2ed9ba0800000000000000
+      internalID: -6080454672568179242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_22
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 17
+        width: 77
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2eeb6681c7ebc370800000000000000
+      internalID: 8344017553003900458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_mov_Gemini-II_Nivel2_23
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 17
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d6c12e78f933c50800000000000000
+      internalID: 6643829281264528774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      robot_mov_Gemini-II_Nivel2_0: -3566726061799180928
+      robot_mov_Gemini-II_Nivel2_1: 815056418843657897
+      robot_mov_Gemini-II_Nivel2_10: -3477804627844603826
+      robot_mov_Gemini-II_Nivel2_11: -2252150010314585742
+      robot_mov_Gemini-II_Nivel2_12: 7186213424705001331
+      robot_mov_Gemini-II_Nivel2_13: 7864263096841898511
+      robot_mov_Gemini-II_Nivel2_14: 1317185782133223777
+      robot_mov_Gemini-II_Nivel2_15: -3682985082018224877
+      robot_mov_Gemini-II_Nivel2_16: 5664189051858773597
+      robot_mov_Gemini-II_Nivel2_17: -7767508210437045843
+      robot_mov_Gemini-II_Nivel2_18: 7410057064506611156
+      robot_mov_Gemini-II_Nivel2_19: 1706301769302187105
+      robot_mov_Gemini-II_Nivel2_2: 2769023959356923112
+      robot_mov_Gemini-II_Nivel2_20: -2235227990333538132
+      robot_mov_Gemini-II_Nivel2_21: -6080454672568179242
+      robot_mov_Gemini-II_Nivel2_22: 8344017553003900458
+      robot_mov_Gemini-II_Nivel2_23: 6643829281264528774
+      robot_mov_Gemini-II_Nivel2_3: -9219387690995471579
+      robot_mov_Gemini-II_Nivel2_4: 8101624458990675333
+      robot_mov_Gemini-II_Nivel2_5: -4962718910146344596
+      robot_mov_Gemini-II_Nivel2_6: -5918378096557409129
+      robot_mov_Gemini-II_Nivel2_7: 3575821632960445698
+      robot_mov_Gemini-II_Nivel2_8: 2076507773974781543
+      robot_mov_Gemini-II_Nivel2_9: 5315513090788813395
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

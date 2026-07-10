@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: bea41575aa3d7db4ba701cb167c2220e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 172272775900204494
+    second: robot_movNivel2_0
+  - first:
+      213: -5277775052481576193
+    second: robot_movNivel2_1
+  - first:
+      213: -1006188620620555213
+    second: robot_movNivel2_2
+  - first:
+      213: -2766960683793679926
+    second: robot_movNivel2_3
+  - first:
+      213: -3563484516376481527
+    second: robot_movNivel2_4
+  - first:
+      213: -9137235659104500499
+    second: robot_movNivel2_5
+  - first:
+      213: -3720813964834301510
+    second: robot_movNivel2_6
+  - first:
+      213: 5194410671452829701
+    second: robot_movNivel2_7
+  - first:
+      213: 7916530931145443923
+    second: robot_movNivel2_8
+  - first:
+      213: 7251825166893603926
+    second: robot_movNivel2_9
+  - first:
+      213: 2585534461730397179
+    second: robot_movNivel2_10
+  - first:
+      213: -1494241016996341496
+    second: robot_movNivel2_11
+  - first:
+      213: 3435692376771012269
+    second: robot_movNivel2_12
+  - first:
+      213: 8687080137273236708
+    second: robot_movNivel2_13
+  - first:
+      213: 689170946440877614
+    second: robot_movNivel2_14
+  - first:
+      213: 2826001164424654030
+    second: robot_movNivel2_15
+  - first:
+      213: 2624559920431637377
+    second: robot_movNivel2_16
+  - first:
+      213: -375233966959578848
+    second: robot_movNivel2_17
+  - first:
+      213: -1749302178875941130
+    second: robot_movNivel2_18
+  - first:
+      213: -5354817947872623623
+    second: robot_movNivel2_19
+  - first:
+      213: -1450708149634077450
+    second: robot_movNivel2_20
+  - first:
+      213: -2253183379587870915
+    second: robot_movNivel2_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot_movNivel2_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 401
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd800c4d29046200800000000000000
+      internalID: 172272775900204494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 401
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2ca687d8391c6b0800000000000000
+      internalID: -5277775052481576193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 401
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c1fd2d7cc4902f0800000000000000
+      internalID: -1006188620620555213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 401
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac971070be7c999d0800000000000000
+      internalID: -2766960683793679926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 292
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90176c666b5fb8ec0800000000000000
+      internalID: -3563484516376481527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 292
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de44b064494023180800000000000000
+      internalID: -9137235659104500499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 292
+        width: 59
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab91db6a9630d5cc0800000000000000
+      internalID: -3720813964834301510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_7
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 292
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508b1790cf0461840800000000000000
+      internalID: 5194410671452829701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 292
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a015430fa2ddd60800000000000000
+      internalID: 7916530931145443923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_9
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 292
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c5ee54198a3a460800000000000000
+      internalID: 7251825166893603926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 173
+        width: 73
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb98f9e4e9a1e320800000000000000
+      internalID: 2585534461730397179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 173
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8095d1d36b3634be0800000000000000
+      internalID: -1494241016996341496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 173
+        width: 113
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da624fa73080eaf20800000000000000
+      internalID: 3435692376771012269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_13
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 173
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecd585db55be8870800000000000000
+      internalID: 8687080137273236708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_14
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 173
+        width: 73
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26d02c035d609900800000000000000
+      internalID: 689170946440877614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 66
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc2f541619f73720800000000000000
+      internalID: 2826001164424654030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 19
+        width: 84
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1832e05975f4c6420800000000000000
+      internalID: 2624559920431637377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 18
+        width: 72
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021b6b3f1b6eacaf0800000000000000
+      internalID: -375233966959578848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_18
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 18
+        width: 78
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe584fbfea39b7e0800000000000000
+      internalID: -1749302178875941130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 69
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f38a2c827ddfa5b0800000000000000
+      internalID: -5354817947872623623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_20
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 16
+        width: 77
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fceb44cf9c0edbe0800000000000000
+      internalID: -1450708149634077450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_movNivel2_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 17
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fc9d577a51bb0e0800000000000000
+      internalID: -2253183379587870915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      robot_movNivel2_0: 172272775900204494
+      robot_movNivel2_1: -5277775052481576193
+      robot_movNivel2_10: 2585534461730397179
+      robot_movNivel2_11: -1494241016996341496
+      robot_movNivel2_12: 3435692376771012269
+      robot_movNivel2_13: 8687080137273236708
+      robot_movNivel2_14: 689170946440877614
+      robot_movNivel2_15: 2826001164424654030
+      robot_movNivel2_16: 2624559920431637377
+      robot_movNivel2_17: -375233966959578848
+      robot_movNivel2_18: -1749302178875941130
+      robot_movNivel2_19: -5354817947872623623
+      robot_movNivel2_2: -1006188620620555213
+      robot_movNivel2_20: -1450708149634077450
+      robot_movNivel2_21: -2253183379587870915
+      robot_movNivel2_3: -2766960683793679926
+      robot_movNivel2_4: -3563484516376481527
+      robot_movNivel2_5: -9137235659104500499
+      robot_movNivel2_6: -3720813964834301510
+      robot_movNivel2_7: 5194410671452829701
+      robot_movNivel2_8: 7916530931145443923
+      robot_movNivel2_9: 7251825166893603926
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

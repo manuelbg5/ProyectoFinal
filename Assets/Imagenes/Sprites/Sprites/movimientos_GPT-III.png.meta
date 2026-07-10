@@ -1,0 +1,1118 @@
+fileFormatVersion: 2
+guid: b7558c624f372d840802a2acada56dfd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6683936039140327866
+    second: movimientos_GPT-III_0
+  - first:
+      213: 724436110900636844
+    second: movimientos_GPT-III_1
+  - first:
+      213: -6241304811947536903
+    second: movimientos_GPT-III_2
+  - first:
+      213: 137922878398055435
+    second: movimientos_GPT-III_3
+  - first:
+      213: -2818400446770963346
+    second: movimientos_GPT-III_4
+  - first:
+      213: -5826268080220769086
+    second: movimientos_GPT-III_5
+  - first:
+      213: 1159600011521421360
+    second: movimientos_GPT-III_6
+  - first:
+      213: -7890712291946805100
+    second: movimientos_GPT-III_7
+  - first:
+      213: 5631638368968154202
+    second: movimientos_GPT-III_8
+  - first:
+      213: 4339050434394007481
+    second: movimientos_GPT-III_9
+  - first:
+      213: -7195220477503001703
+    second: movimientos_GPT-III_10
+  - first:
+      213: 5676419213450315531
+    second: movimientos_GPT-III_11
+  - first:
+      213: -3793932816623346077
+    second: movimientos_GPT-III_12
+  - first:
+      213: -4729651674223188715
+    second: movimientos_GPT-III_13
+  - first:
+      213: 2283382849588462013
+    second: movimientos_GPT-III_14
+  - first:
+      213: -6192566550680415011
+    second: movimientos_GPT-III_15
+  - first:
+      213: -6740358997936323570
+    second: movimientos_GPT-III_16
+  - first:
+      213: -666838993360709886
+    second: movimientos_GPT-III_17
+  - first:
+      213: 7543244628746212476
+    second: movimientos_GPT-III_18
+  - first:
+      213: 3408568662290706766
+    second: movimientos_GPT-III_19
+  - first:
+      213: 2556652964968982365
+    second: movimientos_GPT-III_20
+  - first:
+      213: -7951832320625715605
+    second: movimientos_GPT-III_21
+  - first:
+      213: -1007545214268064502
+    second: movimientos_GPT-III_22
+  - first:
+      213: 5030760178185410822
+    second: movimientos_GPT-III_23
+  - first:
+      213: 8597893988136358416
+    second: movimientos_GPT-III_24
+  - first:
+      213: -2184301409978748566
+    second: movimientos_GPT-III_25
+  - first:
+      213: 4146501184517332479
+    second: movimientos_GPT-III_26
+  - first:
+      213: -1132919144933286544
+    second: movimientos_GPT-III_27
+  - first:
+      213: -3481673800897707468
+    second: movimientos_GPT-III_28
+  - first:
+      213: -7359641125558350141
+    second: movimientos_GPT-III_29
+  - first:
+      213: -2771188959196922933
+    second: movimientos_GPT-III_30
+  - first:
+      213: -4090955585822772633
+    second: movimientos_GPT-III_31
+  - first:
+      213: -124566902287798366
+    second: movimientos_GPT-III_32
+  - first:
+      213: 8294708461847022040
+    second: movimientos_GPT-III_33
+  - first:
+      213: 2100750013545744174
+    second: movimientos_GPT-III_34
+  - first:
+      213: -4731688948707402351
+    second: movimientos_GPT-III_35
+  - first:
+      213: 3078600219843567416
+    second: movimientos_GPT-III_36
+  - first:
+      213: -134421131443692062
+    second: movimientos_GPT-III_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: movimientos_GPT-III_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 784
+        width: 242
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab104622a6c12cc50800000000000000
+      internalID: 6683936039140327866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 807
+        width: 114
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caca2bcfdc6bd0a00800000000000000
+      internalID: 724436110900636844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 393
+        width: 132
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd4ee4675e6269a0800000000000000
+      internalID: -6241304811947536903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 805
+        width: 123
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04c05d80200ae100800000000000000
+      internalID: 137922878398055435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_4
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 0
+        width: 676
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c1a67e9b703e8d0800000000000000
+      internalID: -2818400446770963346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 456
+        width: 214
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c47e38cc00f42fa0800000000000000
+      internalID: -5826268080220769086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 603
+        width: 186
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030f540111ab71010800000000000000
+      internalID: 1159600011521421360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_7
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 591
+        width: 195
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498c3bd2afe8e7290800000000000000
+      internalID: -7890712291946805100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 614
+        width: 109
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c9ec54249972e40800000000000000
+      internalID: 5631638368968154202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_9
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 615
+        width: 153
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b72f8c7167673c30800000000000000
+      internalID: 4339050434394007481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_10
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 601
+        width: 135
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b21ddf811752c90800000000000000
+      internalID: -7195220477503001703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_11
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 618
+        width: 163
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0788ed1331b6ce40800000000000000
+      internalID: 5676419213450315531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_12
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 613
+        width: 150
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ed773543e395bc0800000000000000
+      internalID: -3793932816623346077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_13
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 605
+        width: 150
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515689e6cd6ec5eb0800000000000000
+      internalID: -4729651674223188715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_14
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 607
+        width: 61
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db180f39a9430bf10800000000000000
+      internalID: 2283382849588462013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_15
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 606
+        width: 101
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd45ab228859f0aa0800000000000000
+      internalID: -6192566550680415011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 176
+        width: 182
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04c56d043f6572a0800000000000000
+      internalID: -6740358997936323570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 407
+        width: 132
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2071b56f779eeb6f0800000000000000
+      internalID: -666838993360709886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 413
+        width: 118
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c749a46260dfea860800000000000000
+      internalID: 7543244628746212476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_19
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 439
+        width: 98
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41bd54932bad4f20800000000000000
+      internalID: 3408568662290706766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_20
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 407
+        width: 99
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57ecee635e0b7320800000000000000
+      internalID: 2556652964968982365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_21
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 405
+        width: 152
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6652af82aa65a190800000000000000
+      internalID: -7951832320625715605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_22
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 408
+        width: 114
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d386047fa7402f0800000000000000
+      internalID: -1007545214268064502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_23
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 231
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6091cea5ab9d0d540800000000000000
+      internalID: 5030760178185410822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_24
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 179
+        width: 195
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0129553570bd15770800000000000000
+      internalID: 8597893988136358416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_25
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 323
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61f4d7c07dcfa1e0800000000000000
+      internalID: -2184301409978748566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_26
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 319
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd54e3bbd45b8930800000000000000
+      internalID: 4146501184517332479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_27
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 189
+        width: 192
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d13074a001740f0800000000000000
+      internalID: -1132919144933286544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_28
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 309
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43245b1ff1c9eafc0800000000000000
+      internalID: -3481673800897707468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_29
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 232
+        width: 169
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce0dbca36d4dd990800000000000000
+      internalID: -7359641125558350141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_30
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 317
+        width: 57
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb3591f252ca89d0800000000000000
+      internalID: -2771188959196922933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_31
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 174
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762322bc1910a37c0800000000000000
+      internalID: -4090955585822772633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_32
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 60
+        width: 208
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af6d56ff03754ef0800000000000000
+      internalID: -124566902287798366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_33
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1
+        width: 182
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d981d71669bc1370800000000000000
+      internalID: 8294708461847022040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_34
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 13
+        width: 213
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e278a4fc10d572d10800000000000000
+      internalID: 2100750013545744174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_35
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d57a088f9a55eb0800000000000000
+      internalID: -4731688948707402351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_36
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 51
+        width: 214
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f173db69269ba20800000000000000
+      internalID: 3078600219843567416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimientos_GPT-III_37
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 55
+        width: 196
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed1ef171b0722ef0800000000000000
+      internalID: -134421131443692062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      movimientos_GPT-III_0: 6683936039140327866
+      movimientos_GPT-III_1: 724436110900636844
+      movimientos_GPT-III_10: -7195220477503001703
+      movimientos_GPT-III_11: 5676419213450315531
+      movimientos_GPT-III_12: -3793932816623346077
+      movimientos_GPT-III_13: -4729651674223188715
+      movimientos_GPT-III_14: 2283382849588462013
+      movimientos_GPT-III_15: -6192566550680415011
+      movimientos_GPT-III_16: -6740358997936323570
+      movimientos_GPT-III_17: -666838993360709886
+      movimientos_GPT-III_18: 7543244628746212476
+      movimientos_GPT-III_19: 3408568662290706766
+      movimientos_GPT-III_2: -6241304811947536903
+      movimientos_GPT-III_20: 2556652964968982365
+      movimientos_GPT-III_21: -7951832320625715605
+      movimientos_GPT-III_22: -1007545214268064502
+      movimientos_GPT-III_23: 5030760178185410822
+      movimientos_GPT-III_24: 8597893988136358416
+      movimientos_GPT-III_25: -2184301409978748566
+      movimientos_GPT-III_26: 4146501184517332479
+      movimientos_GPT-III_27: -1132919144933286544
+      movimientos_GPT-III_28: -3481673800897707468
+      movimientos_GPT-III_29: -7359641125558350141
+      movimientos_GPT-III_3: 137922878398055435
+      movimientos_GPT-III_30: -2771188959196922933
+      movimientos_GPT-III_31: -4090955585822772633
+      movimientos_GPT-III_32: -124566902287798366
+      movimientos_GPT-III_33: 8294708461847022040
+      movimientos_GPT-III_34: 2100750013545744174
+      movimientos_GPT-III_35: -4731688948707402351
+      movimientos_GPT-III_36: 3078600219843567416
+      movimientos_GPT-III_37: -134421131443692062
+      movimientos_GPT-III_4: -2818400446770963346
+      movimientos_GPT-III_5: -5826268080220769086
+      movimientos_GPT-III_6: 1159600011521421360
+      movimientos_GPT-III_7: -7890712291946805100
+      movimientos_GPT-III_8: 5631638368968154202
+      movimientos_GPT-III_9: 4339050434394007481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

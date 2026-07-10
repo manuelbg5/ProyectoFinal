@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: a04ca816ab2a21a4f85bf14729cdb693
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5762569711177657885
+    second: plataformas_caminar_0
+  - first:
+      213: 3773327493073253076
+    second: plataformas_caminar_1
+  - first:
+      213: -3034740051884096518
+    second: plataformas_caminar_2
+  - first:
+      213: -3548690808354761116
+    second: plataformas_caminar_3
+  - first:
+      213: -4436277063825396643
+    second: plataformas_caminar_4
+  - first:
+      213: -1152392441718074552
+    second: plataformas_caminar_5
+  - first:
+      213: 8730014330245131601
+    second: plataformas_caminar_6
+  - first:
+      213: -5888739069469000640
+    second: plataformas_caminar_7
+  - first:
+      213: 8583896085332506289
+    second: plataformas_caminar_8
+  - first:
+      213: -2096055641931576355
+    second: plataformas_caminar_9
+  - first:
+      213: 332518817881663220
+    second: plataformas_caminar_10
+  - first:
+      213: 8727903238671952487
+    second: plataformas_caminar_11
+  - first:
+      213: 7116044849435705136
+    second: plataformas_caminar_12
+  - first:
+      213: -5153281129304409242
+    second: plataformas_caminar_13
+  - first:
+      213: -1269344312118997140
+    second: plataformas_caminar_14
+  - first:
+      213: 4467905745946107751
+    second: plataformas_caminar_15
+  - first:
+      213: -7660016548094012643
+    second: plataformas_caminar_16
+  - first:
+      213: 7671890186200033303
+    second: plataformas_caminar_17
+  - first:
+      213: -2120255431889789748
+    second: plataformas_caminar_18
+  - first:
+      213: 5075170677091560507
+    second: plataformas_caminar_19
+  - first:
+      213: -3676626436352492049
+    second: plataformas_caminar_20
+  - first:
+      213: -7058700946620470889
+    second: plataformas_caminar_21
+  - first:
+      213: 8020040092377276575
+    second: plataformas_caminar_22
+  - first:
+      213: -6920366282642666504
+    second: plataformas_caminar_23
+  - first:
+      213: -3610358256103745972
+    second: plataformas_caminar_24
+  - first:
+      213: -7329566659587026154
+    second: plataformas_caminar_25
+  - first:
+      213: -7125479361236832315
+    second: plataformas_caminar_26
+  - first:
+      213: -1885237779355655596
+    second: plataformas_caminar_27
+  - first:
+      213: 6229898816344772677
+    second: plataformas_caminar_28
+  - first:
+      213: -9211804616658702546
+    second: plataformas_caminar_29
+  - first:
+      213: -4052680019061195603
+    second: plataformas_caminar_30
+  - first:
+      213: -5271604949690135278
+    second: plataformas_caminar_31
+  - first:
+      213: 5354822823381002936
+    second: plataformas_caminar_32
+  - first:
+      213: -3240905882809881047
+    second: plataformas_caminar_33
+  - first:
+      213: -7204756544730501340
+    second: plataformas_caminar_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plataformas_caminar_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 184
+        width: 489
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e6b24fe92c8ff40800000000000000
+      internalID: 5762569711177657885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_1
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 322
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2b8ddec5d8d5430800000000000000
+      internalID: 3773327493073253076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 322
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af34cc5600072e5d0800000000000000
+      internalID: -3034740051884096518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_3
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 277
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4661256f28480cec0800000000000000
+      internalID: -3548690808354761116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 279
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c697dc38d2f62c0800000000000000
+      internalID: -4436277063825396643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_5
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 278
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8439c8d0e21e100f0800000000000000
+      internalID: -1152392441718074552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_6
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 234
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15da45e97cd372970800000000000000
+      internalID: 8730014330245131601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_7
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 238
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cf555240ff64ea0800000000000000
+      internalID: -5888739069469000640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_8
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 240
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b63c1b9200202770800000000000000
+      internalID: 8583896085332506289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_9
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 233
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb0731cf7059e2e0800000000000000
+      internalID: -2096055641931576355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_10
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 192
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f628f46a185d9400800000000000000
+      internalID: 332518817881663220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_11
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 188
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ae50fc0cdbf1970800000000000000
+      internalID: 8727903238671952487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_12
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 188
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ffc50961541c260800000000000000
+      internalID: 7116044849435705136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 155
+        width: 98
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b361cbd1edb78b0800000000000000
+      internalID: -5153281129304409242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_14
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 150
+        width: 101
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f0c7ac212626ee0800000000000000
+      internalID: -1269344312118997140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_15
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 150
+        width: 109
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f5b0d9a90310e30800000000000000
+      internalID: 4467905745946107751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_16
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 155
+        width: 103
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d131e35b88722b590800000000000000
+      internalID: -7660016548094012643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_17
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 151
+        width: 67
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71822481a77087a60800000000000000
+      internalID: 7671890186200033303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_18
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 145
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccdd151be65392e0800000000000000
+      internalID: -2120255431889789748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 111
+        width: 99
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c658667d0ae6640800000000000000
+      internalID: 5075170677091560507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 106
+        width: 103
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed36695cbff9fcc0800000000000000
+      internalID: -3676626436352492049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_21
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 106
+        width: 109
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79929fc33e47a0e90800000000000000
+      internalID: -7058700946620470889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_22
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 111
+        width: 61
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90e986d8f7ec4f60800000000000000
+      internalID: 8020040092377276575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_23
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 107
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb4e77188be5ff90800000000000000
+      internalID: -6920366282642666504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_24
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 109
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4699096b4e65edc0800000000000000
+      internalID: -3610358256103745972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_25
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 108
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613d4c1f4f5284a90800000000000000
+      internalID: -7329566659587026154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_26
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfe91bf5463d1d90800000000000000
+      internalID: -7125479361236832315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 5
+        width: 103
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4522c546a3a46d5e0800000000000000
+      internalID: -1885237779355655596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_28
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 5
+        width: 109
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5405bde47fb057650800000000000000
+      internalID: 6229898816344772677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_29
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 5
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f21c3e188192080800000000000000
+      internalID: -9211804616658702546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_30
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 55
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacb883aefcf1c7c0800000000000000
+      internalID: -4052680019061195603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_31
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 55
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d47897a3f77d6b0800000000000000
+      internalID: -5271604949690135278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_32
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 55
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba67ce9cf6205a40800000000000000
+      internalID: 5354822823381002936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_33
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 55
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ea4a8454df503d0800000000000000
+      internalID: -3240905882809881047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plataformas_caminar_34
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 11
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fea225810930c90800000000000000
+      internalID: -7204756544730501340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      plataformas_caminar_0: 5762569711177657885
+      plataformas_caminar_1: 3773327493073253076
+      plataformas_caminar_10: 332518817881663220
+      plataformas_caminar_11: 8727903238671952487
+      plataformas_caminar_12: 7116044849435705136
+      plataformas_caminar_13: -5153281129304409242
+      plataformas_caminar_14: -1269344312118997140
+      plataformas_caminar_15: 4467905745946107751
+      plataformas_caminar_16: -7660016548094012643
+      plataformas_caminar_17: 7671890186200033303
+      plataformas_caminar_18: -2120255431889789748
+      plataformas_caminar_19: 5075170677091560507
+      plataformas_caminar_2: -3034740051884096518
+      plataformas_caminar_20: -3676626436352492049
+      plataformas_caminar_21: -7058700946620470889
+      plataformas_caminar_22: 8020040092377276575
+      plataformas_caminar_23: -6920366282642666504
+      plataformas_caminar_24: -3610358256103745972
+      plataformas_caminar_25: -7329566659587026154
+      plataformas_caminar_26: -7125479361236832315
+      plataformas_caminar_27: -1885237779355655596
+      plataformas_caminar_28: 6229898816344772677
+      plataformas_caminar_29: -9211804616658702546
+      plataformas_caminar_3: -3548690808354761116
+      plataformas_caminar_30: -4052680019061195603
+      plataformas_caminar_31: -5271604949690135278
+      plataformas_caminar_32: 5354822823381002936
+      plataformas_caminar_33: -3240905882809881047
+      plataformas_caminar_34: -7204756544730501340
+      plataformas_caminar_4: -4436277063825396643
+      plataformas_caminar_5: -1152392441718074552
+      plataformas_caminar_6: 8730014330245131601
+      plataformas_caminar_7: -5888739069469000640
+      plataformas_caminar_8: 8583896085332506289
+      plataformas_caminar_9: -2096055641931576355
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
