@@ -171,4 +171,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::bullet
   bulletSpeed: 25
-  damage: 2
+  damage: 4
+  isEnemyBullet: 0

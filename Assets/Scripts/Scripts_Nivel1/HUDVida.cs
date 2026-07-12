@@ -9,11 +9,10 @@ public class HUDVida : MonoBehaviour
 
     [Header("Sprites")]
     [SerializeField] private Sprite spriteCorazonLleno;
-    [SerializeField] private Sprite spriteCorazonVacio; // opcional — si lo dejas vacío, los corazones perdidos se ocultan
+    [SerializeField] private Sprite spriteCorazonVacio; 
 
     void Start()
     {
-        // Si no se asignó el HealthSystem, lo buscamos por tag
         if (playerHealth == null)
         {
             GameObject p = GameObject.FindWithTag("Player");
@@ -25,13 +24,14 @@ public class HUDVida : MonoBehaviour
     {
         if (playerHealth == null || corazones == null) return;
 
-        int vida = playerHealth.GetHealth();
+        // Dividimos entre 2 porque cada corazón equivale a 2 puntos de vida
+        int corazonesLlenos = playerHealth.GetHealth() / 2; 
 
         for (int i = 0; i < corazones.Length; i++)
         {
             if (corazones[i] == null) continue;
 
-            if (i < vida)
+            if (i < corazonesLlenos)
             {
                 // Corazón lleno
                 if (spriteCorazonLleno != null) corazones[i].sprite = spriteCorazonLleno;
@@ -39,7 +39,7 @@ public class HUDVida : MonoBehaviour
             }
             else
             {
-                // Corazón perdido
+                // Corazón vacío o perdido
                 if (spriteCorazonVacio != null)
                 {
                     corazones[i].sprite = spriteCorazonVacio;

@@ -2596,7 +2596,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press enter to next level...
+  m_text: Press enter to the next level...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7ebd3692ee421be41bd86f91f4163920, type: 2}
   m_sharedMaterial: {fileID: -4084534192030096170, guid: 7ebd3692ee421be41bd86f91f4163920, type: 2}

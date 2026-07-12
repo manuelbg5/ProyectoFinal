@@ -7,6 +7,7 @@ public class HealthSystem : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
     private bool isDead = false;
+    public int GetMaxHealth() => maxHealth;
 
     void Start()
     {
