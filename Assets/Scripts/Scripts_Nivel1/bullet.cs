@@ -72,6 +72,20 @@ public class bullet : MonoBehaviour
         }
 
         // ================================================================
+        // 2.5 BALA DEL JUGADOR CONTRA EL JEFE GIGANTE
+        // ================================================================
+        if (!isEnemyBullet)
+        {
+            GiantBossHealth giantBoss = other.GetComponentInParent<GiantBossHealth>();
+            if (giantBoss != null)
+            {
+                giantBoss.TakeDamage(damage);
+                Destroy(gameObject);
+                return;
+            }
+        }
+
+        // ================================================================
         // 3. BALA DEL JUGADOR CONTRA ENEMIGOS NORMALES
         // ================================================================
 
@@ -92,6 +106,14 @@ public class bullet : MonoBehaviour
             {
                 enemyN2.TakeDamage(damage);
             }
+
+            // --- ESTO ES LO NUEVO PARA LOS ROBOTS ---
+            EnemyHealth robotHealth = other.GetComponentInParent<EnemyHealth>();
+            if (robotHealth != null)
+            {
+                robotHealth.TakeDamage(damage);
+            }
+            // ----------------------------------------
 
             Destroy(gameObject);
             return;

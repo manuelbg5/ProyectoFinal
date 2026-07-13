@@ -38,14 +38,10 @@ public class BossHealth : MonoBehaviour
     private void Die()
     {
         isDead = true;
-
         Debug.Log("Boss derrotado");
-
-        Collider2D bossCollider = GetComponent<Collider2D>();
-
-        if (bossCollider != null)
-        {
-            bossCollider.enabled = false;
-        }
+        
+        // Al destruir el gameObject, el robot mediano desaparecerá
+        // de la pantalla y dejará de ejecutar todos sus scripts (incluyendo las invocaciones).
+        Destroy(gameObject); 
     }
 }

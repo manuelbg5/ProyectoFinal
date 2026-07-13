@@ -73,4 +73,21 @@ public class RobotEspadaController : MonoBehaviour
             }
         }
     }
+
+    [Header("Daño al Jugador")]
+    [SerializeField] private int damageAmount = 2; // 2 equivale a un corazón completo según tu HUDVida
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            HealthSystem playerHealth = collision.gameObject.GetComponent<HealthSystem>();
+            
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damageAmount);
+                Debug.Log("¡Robot pequeño dañó al jugador!");
+            }
+        }
+    }
 }
