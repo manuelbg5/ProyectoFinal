@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5073518203510160754}
   m_Layer: 7
   m_Name: bullet 1
-  m_TagString: Enemy
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,3 +173,4 @@ MonoBehaviour:
   bulletSpeed: 25
   damage: 4
   isEnemyBullet: 0
+  lifeTime: 4

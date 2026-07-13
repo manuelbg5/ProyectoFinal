@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Checkpoint
   - Boss
+  - Bullet
   layers:
   - Default
   - TransparentFX

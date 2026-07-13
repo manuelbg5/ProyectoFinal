@@ -4,20 +4,14 @@ using UnityEngine;
 public class BossController : MonoBehaviour
 {
     [Header("Referencias")]
-    [SerializeField] private Transform player;
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
-    [Header("Movimiento")]
+    [Header("Movimiento (Patrullaje Automático de Izquierda a Derecha)")]
     [SerializeField] private float movementSpeed = 2.5f;
-    [SerializeField] private float stoppingDistance = 4f;
-    [Header("Disparo")]
-    [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private Transform firePoint;
-    [SerializeField] private float fireInterval = 1.5f;
-    [SerializeField] private float bulletSpeed = 8f;
+    [SerializeField] private float patrolDuration = 3.0f; // Cada cuántos segundos cambia de dirección
 
-    [Header("Invocación de robots")]
+    [Header("Invocación de robots pequeños")]
     [SerializeField] private GameObject robotPrefab;
     [SerializeField] private Transform spawnPointLeft;
     [SerializeField] private Transform spawnPointRight;
@@ -26,11 +20,13 @@ public class BossController : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isDead;
-    private float nextFireTime;
     private float nextSummonTime;
 
+    // Variables internas de control de patrullaje
+    private float patrolTimer;
+    private float directionX = -1f; // Comienza caminando a la izquierda
+
     private static readonly int SpeedHash = Animator.StringToHash("Speed");
-    private static readonly int ShootHash = Animator.StringToHash("Shoot");
     private static readonly int DieHash = Animator.StringToHash("Die");
 
     private void Awake()
@@ -40,69 +36,43 @@ public class BossController : MonoBehaviour
 
     private void Start()
     {
-        if (player == null)
-        {
-            GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-
-            if (playerObject != null)
-                player = playerObject.transform;
-                
-        }
         nextSummonTime = Time.time + summonInterval;
+        patrolTimer = patrolDuration; // Inicializamos el temporizador de patrulla
     }
 
     private void FixedUpdate()
     {
-        if (isDead || player == null)
+        if (isDead)
         {
             StopMoving();
             return;
         }
+
+        // Lógica de invocación constante
         if (Time.time >= nextSummonTime)
         {
             SummonRobots();
             nextSummonTime = Time.time + summonInterval;
         }
 
-        float differenceX = player.position.x - transform.position.x;
-        float horizontalDistance = Mathf.Abs(differenceX);
-
-        FacePlayer();
-
-        if (horizontalDistance <= stoppingDistance)
+        // ====================================================================
+        // NUEVO: Lógica de Patrullaje de izquierda a derecha por tiempo
+        // ====================================================================
+        patrolTimer -= Time.fixedDeltaTime;
+        if (patrolTimer <= 0f)
         {
-            StopMoving();
-
-            if (Time.time >= nextFireTime)
-            {
-                Shoot();
-                nextFireTime = Time.time + fireInterval;
-            }
-
-            return;
+            directionX *= -1f;           // Invertimos la dirección (-1 a 1, o 1 a -1)
+            patrolTimer = patrolDuration; // Reiniciamos el reloj
         }
 
-        float direction = Mathf.Sign(differenceX);
+        // Aplicamos velocidad horizontal constante
+        rb.linearVelocity = new Vector2(directionX * movementSpeed, rb.linearVelocity.y);
 
-        rb.linearVelocity = new Vector2(
-            direction * movementSpeed,
-            rb.linearVelocity.y
-        );
-
-        if (animator != null)
-            animator.SetFloat(SpeedHash, 1f);
-    }
-
-
-    private void MoveTowardsPlayer()
-    {
-        float direction =
-            Mathf.Sign(player.position.x - transform.position.x);
-
-        rb.linearVelocity = new Vector2(
-            direction * movementSpeed,
-            rb.linearVelocity.y
-        );
+        // Volteamos el sprite según la dirección en la que camina
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.flipX = (directionX < 0f); // Si va a la izquierda (negativo), flipX es true
+        }
 
         if (animator != null)
             animator.SetFloat(SpeedHash, 1f);
@@ -110,30 +80,10 @@ public class BossController : MonoBehaviour
 
     private void StopMoving()
     {
-        rb.linearVelocity = new Vector2(
-            0f,
-            rb.linearVelocity.y
-        );
+        rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
 
         if (animator != null)
             animator.SetFloat(SpeedHash, 0f);
-    }
-
-    private void FacePlayer()
-    {
-        if (spriteRenderer == null || player == null)
-            return;
-
-        bool playerIsLeft =
-            player.position.x < transform.position.x;
-
-        spriteRenderer.flipX = playerIsLeft;
-    }
-
-    public void PlayShootAnimation()
-    {
-        if (!isDead && animator != null)
-            animator.SetTrigger(ShootHash);
     }
 
     public void Die()
@@ -148,37 +98,6 @@ public class BossController : MonoBehaviour
             animator.SetTrigger(DieHash);
     }
 
-    private void Shoot()
-    {
-        if (isDead || bulletPrefab == null || firePoint == null || player == null)
-            return;
-
-        if (animator != null)
-            animator.SetTrigger(ShootHash);
-
-        float direction = player.position.x < transform.position.x ? -1f : 1f;
-
-        GameObject bullet = Instantiate(
-            bulletPrefab,
-            firePoint.position,
-            Quaternion.identity
-        );
-
-        Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
-
-        if (bulletRb != null)
-        {
-            bulletRb.linearVelocity = new Vector2(
-                direction * bulletSpeed,
-                0f
-            );
-        }
-
-        SpriteRenderer bulletSprite = bullet.GetComponent<SpriteRenderer>();
-
-        if (bulletSprite != null)
-            bulletSprite.flipX = direction < 0f;
-    }
     private void SummonRobots()
     {
         if (isDead || robotPrefab == null)
@@ -192,25 +111,12 @@ public class BossController : MonoBehaviour
 
         if (spawnPointLeft != null)
         {
-            Instantiate(
-                robotPrefab,
-                spawnPointLeft.position,
-                Quaternion.identity
-            );
+            Instantiate(robotPrefab, spawnPointLeft.position, Quaternion.identity);
         }
 
-        if (spawnPointRight != null &&
-            robotsAlive.Length + 1 < maxRobotsAlive)
+        if (spawnPointRight != null && robotsAlive.Length + 1 < maxRobotsAlive)
         {
-            Instantiate(
-                robotPrefab,
-                spawnPointRight.position,
-                Quaternion.identity
-            );
+            Instantiate(robotPrefab, spawnPointRight.position, Quaternion.identity);
         }
     }
-
-
-
-
 }
