@@ -4,75 +4,124 @@ public class bullet : MonoBehaviour
 {
     [SerializeField] private float bulletSpeed = 15f;
     [SerializeField] private int damage = 1;
-    
+
     [Header("Configuración de Bando")]
-    [SerializeField] private bool isEnemyBullet = false; // ACTIVA ESTO SOLO EN EL PREFAB DE LA BALA ENEMIGA
+    [SerializeField] private bool isEnemyBullet = false;
+
+    [Header("Duración")]
+    [SerializeField] private float lifeTime = 4f;
 
     private float direction = 1f;
 
+    private void Start()
+    {
+        // Evita que las balas permanezcan para siempre fuera de la cámara.
+        Destroy(gameObject, lifeTime);
+    }
+
     public void SetDirection(float dir)
     {
-        direction = dir;
-        if (dir < 0)
-            transform.localScale = new Vector3(
-                -Mathf.Abs(transform.localScale.x),
-                transform.localScale.y,
-                transform.localScale.z);
+        direction = Mathf.Sign(dir);
+
+        Vector3 scale = transform.localScale;
+        scale.x = Mathf.Abs(scale.x) * direction;
+        transform.localScale = scale;
     }
 
-    void Update()
+    private void Update()
     {
-        transform.Translate(Vector2.right * direction * bulletSpeed * Time.deltaTime);
+        transform.Translate(
+            Vector2.right * direction * bulletSpeed * Time.deltaTime,
+            Space.World
+        );
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        // ====================================================================
-        // 1. DETECCIÓN DE CHOQUE ENTRE BALAS (Bala del Jugador vs Bala del Enemigo)
-        // ====================================================================
+        // ================================================================
+        // 1. CHOQUE ENTRE BALAS DE BANDOS OPUESTOS
+        // ================================================================
+
         bullet otherBullet = other.GetComponent<bullet>();
+
         if (otherBullet != null)
         {
-            // Solo se destruyen si son de bandos opuestos (evita que tus propias balas se destruyan entre sí)
-            if (this.isEnemyBullet != otherBullet.isEnemyBullet)
+            if (isEnemyBullet != otherBullet.isEnemyBullet)
             {
-                // Aquí puedes instanciar un pequeño efecto de explosión si quieres antes de destruir
+                Destroy(otherBullet.gameObject);
                 Destroy(gameObject);
-                return; // Importante poner 'return' para que no ejecute el resto del código
+            }
+
+            return;
+        }
+
+        // ================================================================
+        // 2. BALA DEL JUGADOR CONTRA EL BOSS
+        // ================================================================
+
+        if (!isEnemyBullet)
+        {
+            BossHealth bossHealth = other.GetComponentInParent<BossHealth>();
+
+            if (bossHealth != null)
+            {
+                bossHealth.TakeDamage(damage);
+                Destroy(gameObject);
+                return;
             }
         }
 
-        // ====================================================================
-        // 2. CASO JUGADOR: Es bala del JUGADOR y golpea a un ENEMIGO
-        // ====================================================================
+        // ================================================================
+        // 3. BALA DEL JUGADOR CONTRA ENEMIGOS NORMALES
+        // ================================================================
+
         if (!isEnemyBullet && other.CompareTag("Enemy"))
         {
-            enemyController enemy = other.GetComponent<enemyController>();
-            if (enemy != null) enemy.TakeDamage(damage);
+            enemyController enemy =
+                other.GetComponentInParent<enemyController>();
 
-            enemyControllerN2 enemyN2 = other.GetComponent<enemyControllerN2>();
-            if (enemyN2 != null) enemyN2.TakeDamage(damage);
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+            }
+
+            enemyControllerN2 enemyN2 =
+                other.GetComponentInParent<enemyControllerN2>();
+
+            if (enemyN2 != null)
+            {
+                enemyN2.TakeDamage(damage);
+            }
 
             Destroy(gameObject);
+            return;
         }
 
-        // ====================================================================
-        // 3. CASO ENEMIGO: Es bala del ENEMIGO y golpea al JUGADOR
-        // ====================================================================
+        // ================================================================
+        // 4. BALA ENEMIGA CONTRA EL JUGADOR
+        // ================================================================
+
         if (isEnemyBullet && other.CompareTag("Player"))
         {
-            HealthSystem playerHealth = other.GetComponent<HealthSystem>();
+            HealthSystem playerHealth =
+                other.GetComponentInParent<HealthSystem>();
+
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(damage);
             }
+
             Destroy(gameObject);
+            return;
         }
 
-        // ====================================================================
-        // 4. DESTRUCCIÓN GENERAL (Suelo/Paredes)
-        // ====================================================================
+        // ================================================================
+        // 5. SUELO Y PAREDES
+        // ================================================================
+
         if (other.CompareTag("Ground"))
+        {
             Destroy(gameObject);
+        }
     }
 }
